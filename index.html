@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>::: Gualberto :::</title>
+<link rel="stylesheet"  href="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.css" />  
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.5.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.js"></script>
+</head>
+<body>
+<section id="page1" data-role="page">
+  <header data-role="header">
+    <h1>Página 1</h1>
+  </header>
+  <div data-role="content">
+    <p>Inicio contenido de la Página 1</p>
+    <ul>
+          <li><a href="#page2" title="Ir a la página 2">Página 2</a></li>
+          <li><a href="#page3" data-transition="flip">Página 3</a></li>
+      <li><a href="#page3" data-transition="slidedown" data-role="button" 
+           data-icon="home" data-iconpos="right">Página 3 b</a></li>
+          <li><a href="#page3" data-rel="dialog">Página 3 (Diálogo)</a></li>
+      </ul>
+      <p>Fin contenido de la Página 1</p>
+      <p>
+<fieldset data-role="controlgroup">
+    <legend>Choose a pet:</legend>
+        <input type="radio" name="radio-choice-1" id="radio-choice-1" 
+value="choice-1" checked="checked" />
+        <label for="radio-choice-1">Cat</label>
+        <input type="radio" name="radio-choice-1" id="radio-choice-2" 
+value="choice-2"  />
+        <label for="radio-choice-2">Dog</label>
+        <input type="radio" name="radio-choice-1" id="radio-choice-3"
+value="choice-3"  />
+        <label for="radio-choice-3">Hamster</label>
+</fieldset>
+
+      </p>
+  </div>
+  <footer data-role="footer">
+    Pie de la página 1
+  </footer>
+</section>
+<!-- Página 2 -->
+<section id="page2" data-role="page">
+  <header data-role="header">
+    <h1>Página 2</h1>
+  </header>
+  <div data-role="content">
+    <p>Contenido de la Página 2</p>
+    <p>
+<ul data-role="listview" data-theme="g">
+  <li><a href="www.Friends.com">Friends</a></li>
+  <li><a href="SendMessage.html">Send Message</a></li>
+  <li><a href="Share.html">Share</a></li>
+</ul>
+    </p>
+  </div>
+  <footer data-role="footer">
+    Pie de la página 2
+  </footer>
+</section>
+<!-- Página 3 -->
+<section id="page3" data-role="page">
+  <header data-role="header">
+    <h1>Página 3</h1>
+  </header>
+  <div data-role="content">
+      <p>Contenido de la Página 3</p>
+      <p>Aqui viene mas contenido de <strong>Gualberto</strong></p>
+  </div>
+  <footer data-role="footer">
+    Pie de la página 3
+  </footer>
+</section>
+</body>
+</html>
